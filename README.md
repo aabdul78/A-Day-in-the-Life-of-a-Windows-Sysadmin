@@ -25,6 +25,7 @@ foreach ($item in $collection) {
 
 }
 
+
 Ensure that you check the Log script block invocation start/stop events: setting. Then, enable the Turn on Script Execution policy and set the Execution Policy to Allow all scripts. Note that this policy can enforce the settings we previously applied using the Set-ExecutionPolicy cmdlet during the PowerShell exercises as part of the GPO. Next, enable the Turn on PowerShell Transcription policy, leaving the Transcript output directory blank (which defaults to the user's ~\Documents directory). Note that "Transcription" refers to creating an exact copy of the commands executed in an output directory. Make sure to check the Include invocation headers option, as this will add timestamps to the command transcriptions. Leave the Set the default source path for Update-Help policy as Not configured. Finally, link this new PowerShell Logging GPO to the GC Computers organizational unit.
 
 ![image](https://github.com/user-attachments/assets/1a68a3f2-f26b-4b5f-a916-bd402708dc17)
