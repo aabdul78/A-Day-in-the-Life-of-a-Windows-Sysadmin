@@ -31,8 +31,8 @@ Ensure that you check the Log script block invocation start/stop events: setting
 ![image](https://github.com/user-attachments/assets/1a68a3f2-f26b-4b5f-a916-bd402708dc17)
 
 
-Task 4: Create a Script—Enumerate Access Control Lists
 
+Task 4: Create a Script—Enumerate Access Control Lists
 
 Develop a PowerShell script that enumerates the Access Control List (ACL) for each file or subdirectory in the current working directory. Begin by creating a foreach loop using the following template:
 
@@ -42,19 +42,17 @@ foreach ($item in $directory) {
 <Script block>
 
 }
+ Above the foreach loop, assign a variable named $directory to hold the contents of the current directory. Next, replace the placeholder in the script block with the command that enumerates the ACL of a file, using the $item variable to represent the file name. You will need to utilize the following cmdlets:
 
-    Above the foreach loop, assign a variable named $directory to hold the contents of the current directory. Next, replace the placeholder in the script block with the command that enumerates the ACL of a file, using the $item variable to represent the file name. You will need to utilize the following cmdlets:
 
-
-  
-
-  
-    Get-ChildItem (or any alias of Get-ChildItem, such as ls or dir)
+   Get-ChildItem (or any alias of Get-ChildItem, such as ls or dir)
 
 Get-Acl Save this script in C:\Users\sysadmin\Documents as enum_acls.ps1. Test this script by moving to any directory (cd C:\Windows), and running C:\Users\sysadmin\Documents\enum_acls.ps1 (enter the full path and file name).
 
    
+    
     ![image](https://github.com/user-attachments/assets/95e89868-664e-4abb-acef-2d14b060b13a)
+
 
              
 
