@@ -50,8 +50,11 @@ foreach ($item in $directory) {
 
 Get-Acl Save this script in C:\Users\sysadmin\Documents as enum_acls.ps1. Test this script by moving to any directory (cd C:\Windows), and running C:\Users\sysadmin\Documents\enum_acls.ps1 (enter the full path and file name).
 
+    ![image](https://github.com/user-attachments/assets/95e89868-664e-4abb-acef-2d14b060b13a)
+
+
  
-[image](https://github.com/user-attachments/assets/c516e619-6bf4-4c61-9d1f-d25a4a058044)
+
 
            
 
