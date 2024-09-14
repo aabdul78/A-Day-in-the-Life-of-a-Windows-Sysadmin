@@ -42,6 +42,7 @@ foreach ($item in $directory) {
 <Script block>
 
 }
+
  Above the foreach loop, assign a variable named $directory to hold the contents of the current directory. Next, replace the placeholder in the script block with the command that enumerates the ACL of a file, using the $item variable to represent the file name. You will need to utilize the following cmdlets:
 
 
@@ -49,8 +50,6 @@ foreach ($item in $directory) {
 
 Get-Acl Save this script in C:\Users\sysadmin\Documents as enum_acls.ps1. Test this script by moving to any directory (cd C:\Windows), and running C:\Users\sysadmin\Documents\enum_acls.ps1 (enter the full path and file name).
 
-   
-    
     ![image](https://github.com/user-attachments/assets/95e89868-664e-4abb-acef-2d14b060b13a)
 
 
