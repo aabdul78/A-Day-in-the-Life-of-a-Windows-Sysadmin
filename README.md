@@ -40,6 +40,8 @@ foreach ($item in $directory) {
 
 }
 
+
+  
   Above the foreach loop, assign a variable named $directory to hold the contents of the current directory. Next, replace the placeholder in the script block with the command that enumerates the ACL of a file, using the $item variable to represent the file name. You will need to utilize the following cmdlets:
 
   ![image](https://github.com/user-attachments/assets/c516e619-6bf4-4c61-9d1f-d25a4a058044)
